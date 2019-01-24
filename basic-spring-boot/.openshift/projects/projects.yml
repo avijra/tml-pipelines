@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: List
+items:
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: tml-integration-build
+    creationTimestam: null
+  displayName: Tml Integration Demo - Build
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: tml-integration-dev
+    creationTimestam: null
+  displayName: Tml Integration Demo - Dev
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: tml-integration-stage
+    creationTimestam: null
+  displayName: Tml Integration Demo - Stage
+- kind: ProjectRequest
+  apiVersion: v1
+  metadata:
+    name: tml-integration-prod
+    creationTimestam: null
+  displayName: Tml Integration Demo - Prod
