@@ -110,4 +110,4 @@ parameters:
 - description: Image stream tag for the image you'd like to use to build the application
   name: IMAGE_STREAM_TAG_NAME
   required: true
-  value: openjdk18-openshift:latest
+  value: redhat-openjdk-18/openjdk18-openshift
